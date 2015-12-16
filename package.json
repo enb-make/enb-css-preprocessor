@@ -1,0 +1,50 @@
+{
+  "name": "enb-css-preprocessor",
+  "version": "1.0.0",
+  "description": "ENB css preprocessor",
+  "keywords": [
+    "enb",
+    "css",
+    "preprocessor"
+  ],
+  "author": "Eugene Gavryushin <job.egavr@yandex.ru>",
+  "licenses": [
+    {
+      "type": "MPL-2.0",
+      "url": "https://github.com/enb-make/enb-css-preprocessor/blob/master/LICENSE.txt"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/enb-make/enb-css-preprocessor.git"
+  },
+  "homepage": "https://github.com/enb-make/enb-css-preprocessor",
+  "bugs": "https://github.com/enb-make/enb-css-preprocessor/issues",
+  "maintainers": [
+    {
+      "name": "Eugene Gavryushin",
+      "email": "job.egavr@yandex.ru",
+      "github-username": "egavr"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "peerDependencies": {
+    "enb": ">=0.16.0 <2.0.0"
+  },
+  "dependencies": {
+    "inherit": "2.2.2",
+    "vow": "0.4.11",
+    "vow-fs": "0.3.4"
+  },
+  "devDependencies": {
+    "jscs": "2.2.1",
+    "jshint": "2.8.0"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "lint": "jshint . && jscs .",
+    "test": "npm run lint"
+  }
+}
