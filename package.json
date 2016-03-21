@@ -11,15 +11,15 @@
   "licenses": [
     {
       "type": "MPL-2.0",
-      "url": "https://github.com/enb-make/enb-css-preprocessor/blob/master/LICENSE.txt"
+      "url": "https://github.com/enb/enb-css-preprocessor/blob/master/LICENSE.txt"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/enb-make/enb-css-preprocessor.git"
+    "url": "git://github.com/enb/enb-css-preprocessor.git"
   },
-  "homepage": "https://github.com/enb-make/enb-css-preprocessor",
-  "bugs": "https://github.com/enb-make/enb-css-preprocessor/issues",
+  "homepage": "https://github.com/enb/enb-css-preprocessor",
+  "bugs": "https://github.com/enb/enb-css-preprocessor/issues",
   "maintainers": [
     {
       "name": "Eugene Gavryushin",
